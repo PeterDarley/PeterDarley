@@ -27,6 +27,6 @@ Hilighter is a pure Python extension to [Biopython](https://github.com/biopython
 This is a rewrite of the excelent web based [LANL Highlighter ](https://www.hiv.lanl.gov/content/sequence/HIGHLIGHT/highlighter_top.html) tool.
 
 It is currently needing more documentation before it gets submitted to Biopython, so is monkey patching at the moment.  My hope is that it will be part of the standard Biopython at some point.
-
+![Highlighter demo image](DEMO_highlighter.png)
 ### ML Import Wizard
 ### ML Export Wizard
