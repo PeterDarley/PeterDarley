@@ -5,5 +5,16 @@ I'm currently working at the [Mullins Retrovirology Lab](https://mullinslab.micr
 Some of these are available at the [Mullins Lab GitHub page](https://github.com/MullinsLab)
 ### Phylobook
 [Phylobook GitHub Repo](https://github.com/MullinsLab/phylobook)
+
+The Phylobook paper is pending publication in the journal [BioTechniques](https://www.biotechniques.com/)
+
 ### Viroverse
 Viroverse GitHub Repo is private until completion
+
+### HiRIS
+
+## Reusable Open Source Components
+
+### Highlighter
+### ML Import Wizard
+### ML Export Wizard
