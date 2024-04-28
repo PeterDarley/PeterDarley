@@ -7,7 +7,13 @@ Some of these are available at the [Mullins Lab GitHub page](https://github.com/
 ### Phylobook
 [Phylobook GitHub Repo](https://github.com/MullinsLab/phylobook)
 
+Phylobook is a tool to display related sequences (necleotides or amino acids) using a phylogenitic tree, a mismatched plot (Highlighter) that displayes differences from a reference sequences, and a matched plot that shows similarities to consensus sequences for the lineages assigned by the user.  This is used to generate lineage information for each sequences.  In the Mullins Lab this information is being applied to the question of how many strains of HIV are people being exposed to on initial infection.
+
 The Phylobook paper is pending publication in the journal [BioTechniques](https://www.biotechniques.com/)
+
+Phylobook is fed data from the Phylobook_Pipeline, which is mostly written by my coleague, Wenjie Deng, but which I contributed a small amount of work toward. ([GitHub Repo](https://github.com/MullinsLab/phylobook_pipeline))
+
+<img src="Phylobook.png" alt="Phylobook screen shot" width="300"/>
 
 ### Viroverse
 Viroverse GitHub Repo is private until completion
@@ -28,7 +34,7 @@ This is a rewrite of the excelent web based [LANL Highlighter ](https://www.hiv.
 
 It is currently needing more documentation before it gets submitted to Biopython, so is monkey patching at the moment.  My hope is that it will be part of the standard Biopython at some point.
 
-<img src="DEMO_highlighter.png" alt="drawing" width="300"/>
+<img src="DEMO_highlighter.png" alt="Highlighter Demo" width="300"/>
 
 ### ML Import Wizard
 [ML_Import_Wizard GitHub Repo](https://github.com/MullinsLab/ML_Import_Wizard)
