@@ -18,7 +18,7 @@ Phylobook is fed data from the Phylobook_Pipeline, which is mostly written by my
 ### HiRIS - HIV-1 Reservoirs Integration Sites “high-rise”
 HiRIS GitHub Repo is private until completion
 
-I am the sole contributor to HiRIS, a tool to collect and display viral integration sights, specifically HIV integration sights.  Based on the [ISDB](https://mullinslab.microbiol.washington.edu/isdb/) implimentation of a previous [HiRIS tool](https://mullinslab.microbiol.washington.edu/hiris/), the project includes an entirely new PostgreSQL data base design, and all new code, with the goal of increasing the variety of  
+I am the sole contributor to HiRIS, a tool to collect and display viral integration sights, specifically HIV integration sights.  Based on the [ISDB](https://mullinslab.microbiol.washington.edu/isdb/) implimentation of a previous [HiRIS tool](https://mullinslab.microbiol.washington.edu/hiris/), the project includes an entirely new PostgreSQL data base design, and all new code, with the goal of increasing the variety of sequence data collected, including the provirus sequence, adding data access rules, and allowing for importing data by the users.  
 
 <img src="HiRIS.png" alt="HiRIS screen shot" width="300"/>
 
