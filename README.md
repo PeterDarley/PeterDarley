@@ -51,60 +51,12 @@ It is designed to take input data files as they are, associating fields with Dja
 
 As a user facing tool, it is designed to allow end users to manage their own data imports without having to go to the database back end or use the Admin tools.
 
-```python
-import os
-from .base_settings import env
-# from hiris.apps.core.utils.resolve_importer import accession_id_to_chromosome
-
-ML_IMPORT_WIZARD = {
-    "Working_Files_Dir": os.path.join("/", env("WORKING_FILES_DIR"), ""),
-    "Logger": "app",
-    "Log_Exceptions": True,
-    "Setup_On_Start": True,
-    'Importers': {
-        'Genome': {
-            'name': 'Genome',
-            'description': 'Import an entire genome',
-            'apps': [
-                {
-                    'name': 'core',
-                    'include_models': ['GenomeSpecies', "GenomeVersion", "GeneType", "FeatureType", "Feature", "FeatureLocation"],
-                    # 'exclude_models': ['Feature'],
-                    'models': {
-                        'GenomeSpecies': {
-                            'restriction': 'deferred',
-                            "load_value_fields": ["genome_species_name"],
-                        },
-                        "GenomeVersion": {
-                            "exclude_fields": ['external_gene_id_source'],
-                            "default_option": "raw_text",
-                            "load_value_fields": ["genome_version_name"],
-                        },
-                        'FeatureType': {
-                            'restriction': 'rejected',
-                            'fields': {
-                                'feature_type_name': {
-                                    'approved_values': ['CDS', 'exon', 'region', 'gene', 'start_codon', 'stop_codon']
-                                },
-                            },
-                        },
-                        "Feature": {
-                            # "exclude_fields": ["external_gene_id"],
-                        },
-                        'FeatureLocation': {
-                            "fields": {
-                                "feature_orientation": {
-                                    "critical": True,
-                                    "translate_values": {"+": "F", "-": "R"},
-                                    "force_case": "upper",  
-                                },
-                            },
-                        },
-                    },
-                },
-            ],
-        },
-    }
-}```
 ### ML Export Wizard
 [ML_Export_Wizard GitHub Repo](https://github.com/MullinsLab/ML_Export_Wizard)
+
+ML Export Wizard is a Django app that composes flat square data structures from Django ORM models.  It is designed to shore up a weakness of an ORM where it is hard to link models into larger data structures that span many objects, as well as multiple apps.  These flat data structures are very useful for building HTML tables that span multiple models, as well as exporting data to flat files.
+
+Resulting data structures are queryable, sortable, and since they generate only a single database query, they are fast.
+
+The tool uses introspection to understand the Django models used and establish their relationships.  It does this when the server is run, so it will detect any changes to models without need to update settings.
+
