@@ -9,7 +9,7 @@ Some of these are available at the [Mullins Lab GitHub page](https://github.com/
 
 Phylobook is a tool to display related sequences (nucleotides or amino acids) using a phylogenitic tree, a mismatched plot (Highlighter) that displayes differences from a reference sequences, and a matched plot that shows similarities to consensus sequences for the lineages assigned by the user.  This functionality is used to generate lineage information for each sequence.  In the Mullins Lab this information is being applied to the question of how many strains of HIV are people being exposed to on initial infection.
 
-The Phylobook paper is pending publication in the journal [BioTechniques](https://www.biotechniques.com/).
+The [Phylobook journal article](https://doi.org/10.2144/btn-2023-0056) in Biotechniques.
 
 Phylobook is fed data from the Phylobook_Pipeline, which is mostly written by my coleague, Wenjie Deng, but toward which I contributed a small amount of work. ([GitHub Repo](https://github.com/MullinsLab/phylobook_pipeline))
 
