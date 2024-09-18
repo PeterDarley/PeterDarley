@@ -1,5 +1,5 @@
 # Peter Darley
-I have just finished working at the [Cohn Lab](https://research.fredhutch.org/cohn/en.html) at the [Fred Hutchinson Cancer Center](https://www.fredhutch.org/en.html).  I moved there from the [Mullins Retrovirology Lab](https://mullinslab.microbiol.washington.edu/) at the [University of Washington Department of Microbiology](https://microbiology.washington.edu/uw-microbiology-home).  I was continuing the work I started at the Mullins Lab; I develop tools for the collection, distribution, and analysis of scientific data.  The projects I've worked on here are:
+I have just finished working at the [Cohn Lab](https://research.fredhutch.org/cohn/en.html) at the [Fred Hutchinson Cancer Center](https://www.fredhutch.org/en.html).  I moved there from the [Mullins Retrovirology Lab](https://mullinslab.microbiol.washington.edu/) at the [University of Washington Department of Microbiology](https://microbiology.washington.edu/uw-microbiology-home).  I was continuing the work I started at the Mullins Lab; I develop tools for the collection, distribution, and analysis of scientific data.  The projects I've worked on there are:
 
 ## Full Applications
 Some of these are available at the [Mullins Lab GitHub page](https://github.com/MullinsLab)
